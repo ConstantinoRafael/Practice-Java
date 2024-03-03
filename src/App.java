@@ -39,5 +39,18 @@ public class App {
         }
 
         System.out.println(sequence);
+
+
+
+        // Ex3 - MultiplicaAí
+
+        int y = 9;
+        
+        System.out.println("Tabela de multiplicação por " + y);
+        
+        for(int i = 1; i <=10; i++) {
+            System.out.println(y + " x " + i + "= " + y*i);
+        }
+
     }
 }
