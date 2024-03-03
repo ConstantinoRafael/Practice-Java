@@ -52,5 +52,17 @@ public class App {
             System.out.println(y + " x " + i + "= " + y*i);
         }
 
+        // Ex4 - Pirâmide de números
+
+        int z = 5;
+
+        for(int i = 1; i <= z; i ++) {
+            String imprimir4 = "";
+            for (int j = 1; j <= i; j ++) {
+                imprimir4 += i;
+            }
+            System.out.println(imprimir4);
+        }
+
     }
 }
